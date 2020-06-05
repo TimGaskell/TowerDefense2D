@@ -46,16 +46,16 @@ public abstract class TowerBase : MonoBehaviour
   
 
     private void OnTriggerEnter2D(Collider2D collision) {
-        if (collision.GetComponent<>) {
-            EnemiesInRange.Add(collision.gameObject);
-        }
+        //if (collision.GetComponent<>) {
+        //    EnemiesInRange.Add(collision.gameObject);
+        //}
     }
 
 
 
     private void OnTriggerExit2D(Collider2D collision) {
-        if (collision.GetComponent<>) {
-            EnemiesInRange.Remove(collision.gameObject);
-        }
+        //if (collision.GetComponent<>) {
+        //    EnemiesInRange.Remove(collision.gameObject);
+        //}
     }
 }
